@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ScottishParliamentModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Members">
+    <Key>
+      <PropertyRef Name="PersonID" />
+    </Key>
+    <Property Name="PersonID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PhotoURL" Type="varchar" MaxLength="58" />
+    <Property Name="Notes" Type="varchar" MaxLength="138" />
+    <Property Name="BirthDate" Type="datetime" />
+    <Property Name="BirthDateIsProtected" Type="bit" Nullable="false" />
+    <Property Name="ParliamentaryName" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="PreferredName" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="GenderTypeID" Type="int" Nullable="false" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="ScottishParliamentModelStoreContainer">
+    <EntitySet Name="Members" EntityType="Self.Members" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

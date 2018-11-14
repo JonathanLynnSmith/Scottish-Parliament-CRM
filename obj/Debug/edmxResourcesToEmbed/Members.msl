@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ScottishParliamentModelStoreContainer" CdmEntityContainer="ScottishParliamentEntities">
+    <EntitySetMapping Name="Members">
+      <EntityTypeMapping TypeName="ScottishParliamentModel.Member">
+        <MappingFragment StoreEntitySet="Members">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="GenderTypeID" ColumnName="GenderTypeID" />
+          <ScalarProperty Name="PreferredName" ColumnName="PreferredName" />
+          <ScalarProperty Name="ParliamentaryName" ColumnName="ParliamentaryName" />
+          <ScalarProperty Name="BirthDateIsProtected" ColumnName="BirthDateIsProtected" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="PhotoURL" ColumnName="PhotoURL" />
+          <ScalarProperty Name="PersonID" ColumnName="PersonID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
