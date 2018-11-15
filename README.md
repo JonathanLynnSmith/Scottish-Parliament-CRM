@@ -8,5 +8,5 @@ This project was to practice the idea of someone handing me a SQL Database to bu
 	- if this fails, then delete the model and select create model from database, follow the wizard to select the members table and finish. 
 4. The solution should now build as normal. 
 
-*Application*
+*Application*: 
 You will have access to all CRUD operations using the console applciation. Note the delete is a soft delete, meaning that the data never gets removed from the database. Currently there is no validation on the Add or Update functionality. This will be added later. As of now if you fail to insert the feilds properly then the application will throw an exception. I have done my best to point out how the fields should be filled out to prevent this issue. 
