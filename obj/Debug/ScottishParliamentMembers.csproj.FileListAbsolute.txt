@@ -20,3 +20,13 @@ C:\Users\Jonathan\source\repos\ScottishParliamentMembers\bin\Debug\EntityFramewo
 C:\Users\Jonathan\source\repos\ScottishParliamentMembers\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Jonathan\source\repos\ScottishParliamentMembers\obj\Debug\ScottishParliamentMembers.csprojAssemblyReference.cache
 C:\Users\Jonathan\source\repos\ScottishParliamentMembers\obj\Debug\ScottishParliamentMembers.csproj.CopyComplete
+C:\Users\Jonathan\source\repos\Scottish-Parliament-CRM\bin\Debug\ScottishParliamentMembers.exe.config
+C:\Users\Jonathan\source\repos\Scottish-Parliament-CRM\bin\Debug\ScottishParliamentMembers.exe
+C:\Users\Jonathan\source\repos\Scottish-Parliament-CRM\bin\Debug\ScottishParliamentMembers.pdb
+C:\Users\Jonathan\source\repos\Scottish-Parliament-CRM\bin\Debug\EntityFramework.xml
+C:\Users\Jonathan\source\repos\Scottish-Parliament-CRM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jonathan\source\repos\Scottish-Parliament-CRM\obj\Debug\ScottishParliamentMembers.csprojAssemblyReference.cache
+C:\Users\Jonathan\source\repos\Scottish-Parliament-CRM\obj\Debug\ScottishParliamentMembers.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\source\repos\Scottish-Parliament-CRM\obj\Debug\ScottishParliamentMembers.csproj.CopyComplete
+C:\Users\Jonathan\source\repos\Scottish-Parliament-CRM\obj\Debug\ScottishParliamentMembers.exe
+C:\Users\Jonathan\source\repos\Scottish-Parliament-CRM\obj\Debug\ScottishParliamentMembers.pdb

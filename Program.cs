@@ -116,10 +116,10 @@ namespace ScottishParliamentMembers
                     Console.Write("Perferred Name: ");
                     member.PreferredName = Console.ReadLine();
 
-                    Console.Write("BirthDate: ");
+                    Console.Write("BirthDate (MM-DD-YYYY): ");
                     member.BirthDate = Convert.ToDateTime(Console.ReadLine());
 
-                    Console.Write("Should birth date be protected? ");
+                    Console.Write("Should birth date be protected? (true or false): ");
                     member.BirthDateIsProtected= Convert.ToBoolean(Console.ReadLine());
 
                     Console.Write("Select Gender (M or F) : ");
