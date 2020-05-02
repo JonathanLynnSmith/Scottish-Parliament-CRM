@@ -1,5 +1,5 @@
 # Scottish-Parliament-CRM
-This project was to practice the idea of someone handing me a SQL Database to build an application around. I decided to the use the data to build a scaled down Client Relationship Manager. 
+This project was to practice the idea of someone me handing a SQL Database to build an application around. I decided to the use the data to build a scaled down Client Relationship Manager. 
 
 *Build Database*
 1. First create a database called ScottishParliament in VS Studio
